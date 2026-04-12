@@ -51,8 +51,11 @@ data/processed/
 
 # Model files (keep essential models)
 models/checkpoints/
-# Allow saved models
+# Allow saved models and their files
 !models/saved_models/
+!models/saved_models/*.h5
+!models/saved_models/*.hdf5
+!models/saved_models/*.model
 *.h5
 *.hdf5
 *.model
