@@ -39,25 +39,28 @@ venv.bak/
 *.ckpt
 *.pb
 
-# Data files
+# Data files (keep essential project data)
 data/raw/
 data/processed/
-*.csv
+# Allow specific data files
+!data/**/
 *.json
 *.jsonl
 *.pkl
 *.pickle
 
-# Model files
+# Model files (keep essential models)
 models/checkpoints/
-models/saved_models/
+# Allow saved models
+!models/saved_models/
 *.h5
 *.hdf5
 *.model
 
-# Output files
-output/
-logs/
+# Output files (keep essential results)
+!output/*.csv
+output/logs/
+output/temp/
 *.log
 
 # IDE
