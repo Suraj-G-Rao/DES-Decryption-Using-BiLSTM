@@ -140,9 +140,6 @@ This experience has been a rewarding step in my learning journey, and I look for
 - Developing more sophisticated cryptanalysis techniques
 - Contributing to the field of AI-based security research
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
